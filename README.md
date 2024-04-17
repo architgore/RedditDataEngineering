@@ -29,23 +29,31 @@ Amazon Redshift: Used for data storage and analytics.
 - Docker installed.
 - Python version 3.9 or later.
 
-Download the repository
-'git clone https://github.com/airscholar/RedditDataEngineering.git'
-
-Set up a virtual environment.
-'python3 -m venv venv'
-
-Activate the virtual environment.
-'source venv/bin/activate'
-
-Install required packages.
-'pip install -r requirements.txt'
-
-Update the configuration and credentials files.
-'mv config/config.conf.example config/config.conf'
-
-Initialize the Docker containers.
-'docker-compose up -d'
-Access the Airflow web interface.
-'open http://localhost:8080'
-
+1. Clone the repository.
+   ```bash
+    git clone https://github.com/airscholar/RedditDataEngineering.git
+   ```
+2. Create a virtual environment.
+   ```bash
+    python3 -m venv venv
+   ```
+3. Activate the virtual environment.
+   ```bash
+    source venv/bin/activate
+   ```
+4. Install the dependencies.
+   ```bash
+    pip install -r requirements.txt
+   ```
+5. Rename the configuration file and the credentials to the file.
+   ```bash
+    mv config/config.conf.example config/config.conf
+   ```
+6. Starting the containers
+   ```bash
+    docker-compose up -d
+   ```
+7. Launch the Airflow web UI.
+   ```bash
+    open http://localhost:8080
+   ```
