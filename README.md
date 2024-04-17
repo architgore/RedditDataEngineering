@@ -30,7 +30,7 @@ Amazon Redshift: Used for data storage and analytics.
 - Python version 3.9 or later.
 
 1. Clone the repository.
-   ```bash
+   ```python
     git clone https://github.com/airscholar/RedditDataEngineering.git
    ```
 2. Create a virtual environment.
