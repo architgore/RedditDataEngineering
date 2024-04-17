@@ -1,4 +1,4 @@
-# This project delivers a detailed data pipeline system for extracting, transforming, and loading Reddit data into a Redshift database. It utilizes various tools such as Apache Airflow, Celery, PostgreSQL, Amazon S3, AWS Glue, Amazon Athena, and Amazon Redshift.
+## This project delivers a detailed data pipeline system for extracting, transforming, and loading Reddit data into a Redshift database. It utilizes various tools such as Apache Airflow, Celery, PostgreSQL, Amazon S3, AWS Glue, Amazon Athena, and Amazon Redshift.
 
 # Table of Contents
 - Overview
